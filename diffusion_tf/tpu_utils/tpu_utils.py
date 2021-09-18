@@ -3,7 +3,7 @@ import os
 import pickle
 import time
 from datetime import datetime
-
+import tensorflow
 import numpy as np
 import tensorflow.compat.v1 as tf
 import tensorflow_gan as tfgan
