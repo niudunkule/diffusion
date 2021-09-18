@@ -14,6 +14,8 @@ from tqdm import trange
 from . import classifier_metrics_numpy
 from .tpu_summaries import TpuSummaries
 from .. import utils
+tf.disable_v2_behavior()
+
 
 
 # ========== TPU utilities ==========
