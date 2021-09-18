@@ -44,7 +44,8 @@ def distributed(fn, *, args, reduction, strategy):
 
 INCEPTION_URL = 'http://download.tensorflow.org/models/frozen_inception_v1_2015_12_05_v4.tar.gz'
 INCEPTION_FROZEN_GRAPH = 'inceptionv1_for_inception_score_tpu.pb'
-INCEPTION_GRAPH_DEF = tensorflow.contrib.gan.eval.get_graph_def_from_url_tarball
+INCEPTION_GRAPH_DEF = tf.contrib.gan.eval.get_graph_def_from_url_tarball
+
 (
   INCEPTION_URL, INCEPTION_FROZEN_GRAPH, os.path.basename(INCEPTION_URL))
 
