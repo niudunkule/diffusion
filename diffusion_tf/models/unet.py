@@ -1,4 +1,4 @@
-import tensorflow.compat.v1 as tf
+import tensorflow._api.v2.compat.v1 as tf
 import tensorflow.contrib as tf_contrib
 
 from .. import nn
